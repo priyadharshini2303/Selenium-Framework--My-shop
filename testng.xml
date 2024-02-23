@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.automationpractise.Listeners.TestListener"/>
+    </listeners>
+    <test parallel="methods" thread-count="1" name="C:/Users/Priyadharshini/IdeaProjects/myshop">
+        <classes>
+<!--            <class name="com.automationpractise.tests.AccountCreationPageTest"/>-->
+            <class name="com.automationpractise.tests.AddToCardPageTest"/>
+            <class name="com.automationpractise.tests.EndToEndTest"/>
+            <class name="com.automationpractise.tests.HomePageTest"/>
+            <class name="com.automationpractise.tests.IndexPageTest"/>
+            <class name="com.automationpractise.tests.LoginPageTest"/>
+            <class name="com.automationpractise.tests.OrderPageTest"/>
+            <class name="com.automationpractise.tests.SearchResultpageTest"/>
+        </classes>
+    </test>
+</suite>
